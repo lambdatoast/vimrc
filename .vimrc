@@ -113,9 +113,6 @@ au BufNewFile,BufRead *.twig set filetype=html
 " purescript config
 au BufNewFile,BufRead *.purs set filetype=haskell
 
-" php config
-nnoremap ;e oerror_log(print_r(array(<CR>), TRUE));<esc><S-O>
-
 " jekyll config
 nnoremap <leader>jb :!jekyll build<CR>
 
