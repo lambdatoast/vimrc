@@ -113,6 +113,12 @@ au BufNewFile,BufRead *.twig set filetype=html
 " purescript config
 au BufNewFile,BufRead *.purs set filetype=haskell
 
+" elm config
+
+nnoremap <leader>ee :ElmEvalLine<CR>
+nnoremap <leader>ep :ElmPrintTypes<CR>
+nnoremap <leader>em :ElmMakeCurrentFile<CR>
+
 " jekyll config
 nnoremap <leader>jb :!jekyll build<CR>
 
